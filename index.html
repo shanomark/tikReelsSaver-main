@@ -13,7 +13,7 @@
             position: relative;
             overflow: auto;
             background: 
-                radial-gradient(600px at 20% 30%, rgba(0, 180, 216, 0.15), transparent),
+                radial-gradient(600px at 20% 30%, rgba(9, 15, 16, 0.15), transparent),
                 radial-gradient(400px at 80% 70%, rgba(144, 224, 239, 0.1), transparent),
                 linear-gradient(to bottom right, #000814 0%, #001d3d 100%);
             min-height: 100vh;
@@ -98,6 +98,8 @@
         }
 
         .download-link {
+            position: relative;
+            z-index: 3;
             display: block;
             background: linear-gradient(145deg, #0077b6 0%, #00b4d8 100%);
             color: white;
